@@ -1,0 +1,137 @@
+	html { 
+	background: url(whiteback.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #424242;
+	font-family: 'Fondamento', cursive;
+		}
+	.box{
+		background: transparent;
+		border-color: #E3E3E3;
+		box-shadow: 10px 10px 5px #8F8F8F  ;
+		border-radius: 25px;
+		text-align: center;
+		font-size: larger;
+		padding-top:50px;
+		
+	}
+	.box:hover{
+		border-style: ridge;
+		border-color: orange;
+		color: orange;
+		}
+
+	.box.resume{
+		position: fixed;
+		top: 2%;
+		left: 2%;
+		height: 15%;
+		width:15%;
+		}
+	.box.net{
+		position: fixed;
+		top:1%;
+		left: 20%;
+		height: 15%;
+		width :40%;
+		
+		}
+	.box.frontend{
+		position: fixed;
+		top:4%;
+		left: 63%;
+		height: 15%;
+		width :35%;
+		
+	}
+	.box.backend{
+		position: fixed;
+		top:35%;
+		left: 67%;
+		height: 20%;
+		width :31%;
+		
+	}
+	.box.photo {
+		position: relative;
+		top: 29%;
+		left: 0px;
+		width: 23%;
+		height: 40%;
+		
+		}
+
+	.photoimage{
+		position: absolute;
+		border-radius:50%;
+		overflow:hidden;
+		top: 3.5%;
+		left: 5px;
+		height: 93%;
+		width: 94%;
+	}
+	.namebox{
+		position: fixed;
+		text-align: center;
+		top: 29%;
+		left: 26%;height: 45%;
+		width :40%;
+		padding-top:  50px;
+		
+	}
+	#fullname{
+		font-family: 'Merienda One', cursive;
+		text-shadow: 2px 2px #a3a375;
+	}
+	#desc{
+		font-family: 'Merienda One', regular;
+		/*font-family: 'Courgette', cursive;*/
+	}
+	.box.hobby {
+		position: relative;
+		top: 29%;
+		left: 55%;
+		width: 40%;
+		height: 5%;
+		
+		}
+
+	.box.jokes{
+		position: fixed;
+		top: 82%;
+		left:10%;
+		width: 40%;
+		height: 8%;
+		background: transparent;
+		
+	}
+
+@media only screen  and (max-device-height : 736px)  
+{ 
+	.box.photo {
+		position: relative;
+		top: 25%;
+		left: 0px;
+		width: 23%;
+		height: 23%;
+		}
+	.box.backend{
+		position: fixed;
+		top:27%;
+		left: 67%;
+		height: 20%;
+		width :31%;
+		
+	}
+	.box.jokes{
+		position: fixed;
+		top: 55%;
+		left:10%;
+		width: 40%;
+		height: 10%;
+		
+	}
+	
+}
