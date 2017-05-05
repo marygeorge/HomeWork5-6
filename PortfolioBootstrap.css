@@ -1,0 +1,82 @@
+	html { 
+	background: url(whiteback.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #424242;
+	font-family: 'Fondamento', cursive;
+		}
+	.box{
+		background: transparent;
+		border-color: #E3E3E3;
+		box-shadow: 10px 10px 5px #8F8F8F  ;
+		border-radius: 25px;
+		text-align: center;
+		padding-top:50px;
+		font-size: larger;
+	}
+	.box:hover{
+		border-style: ridge;
+		border-color: orange;
+		color: orange;
+		}
+
+	.box.resume{
+		height: 15%;
+		}
+	.box.net{
+		height: 20%;
+		}
+	.box.frontend{
+		height: 15%;
+	}
+	.box.backend{
+		height: 20%;
+	}
+	.box.photo {
+		height: 40%;
+		}
+
+	.photoimage{
+		border-radius:50%;
+		overflow:hidden;
+		top: 3.5%;
+		left: 5px;
+		height: 93%;
+	}
+
+	#fullname{
+		font-family: 'Merienda One', cursive;
+		text-shadow: 2px 2px #a3a375;
+	}
+	#desc{
+		font-family: 'Merienda One', regular;
+	}
+
+	.namebox{
+		text-align: center;
+		height: 30%;
+	}
+    .box.hobby {
+		height: 15%;
+		}
+
+	.box.jokes{
+		height: 16%;
+	}
+
+@media only screen  and (max-device-height : 736px)  
+{ 
+	.box.photo {
+		height: 23%;
+		}
+	.box.backend{
+		height: 20%;
+		padding-top:50px;
+	}
+	.box.jokes{
+		height: 16%;
+	}
+	
+}
